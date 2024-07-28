@@ -1,0 +1,14 @@
+﻿{
+    "Logging": {
+        "IncludeScopes": true,
+        "LogLevel": {
+            "Default": "Debug",
+            "System": "Information",
+            "Microsoft": "Information"
+        }
+    },
+    "port": 22,
+    "keys": {
+        "rsa": "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEAyu5viZjU6yHW0qLKBFqEKPowVlw6QPNPGkFssvUzB3yazb9p\npyPfvzADeHIFbxOBXB1K0xjSKOzbQnMoA/EWv3rnXWvmILU/Zi9pjvvvbWAIDT7X\nGZpfSBUQ7C379wqohftPUeT8F5qj3bfPcVOVICItY5IQHeZ/eBiDn6QXbkqaVD79\nY9ELaiC6AngC+9VACdBo5wQEei5Tu+ZBJ+mte9D/BJu+dCeC/vp8o/Ple+eL/xS8\ngVynyvE+0itw2yiysqQvoeDPDBOPRvLnPBhSpD3F8L9H/8xrkp7Cz+5r3d7egxlZ\neU2kQ5WeCc1MwNauk24ID742yuxfHjZudo4Y8QIDAQABAoIBAH5M+iSEd3hEnmSI\npv0grQKn/G+zhRoplMD9mT6kd3cgaWTGzmYVYMuogXB0XsdsN2XyYUCTQTHxgOGR\ntIUHhyXzw44Ueq0+wU/DEIrKaJEFZN2Bj/TCbKz7V4X3dMuj2ZFSAWMyBmhWecij\n/ztETxspymAfZ2KEtC816q3wPhkIvktxd/T4nFSJPXJMBH8BpyHebr9dUvMBecSg\n97ttgvuzQk782FfLsi+ZH8GK2UptffpfkUeD2Tw3wsZZxmGFBEXaHJh7lom0hj4P\nNisC5mRl6hkjeW/mqHADdKbuzuyMgkHouGre98NOGFhp1EXtLD38DZQ778Bmp7u+\nKomQMXUCgYEAzSLE95dXp5QBPMAyvowOQiRgzGd9H3TPFX7I/nJ2ddFQ0z1wwJ1i\nXiheFwFBRv5u1zlUfGgCWR1fAGVSL958o7I4pvnRC86EnEdqulf3C9ftWpajEcdc\nYFV7wFi3teMbI0NitBn5d7s3+HXiM1NcbNzfB3lC9LwMxFUrr6Osb6cCgYEA/T+8\n18XHukcSfcuVreh2InVG1lWqChRzeqCwGkTMB4a2Vaa5rDNLKoD+zKLp4dHJkPFF\n5Eixf3ZnSiEt5xW3ykWTOl0I4kFvy2KpZNRbgspaokZS8v/+xNWeJQBNSYl+yET1\n46Qh5C3NFTwJsqGa2q6XnbEggrHQS88zFkplBacCgYB8JfHM4mQjQFirWqqbVYn/\nj6KhsnQwSHJX0P51t/JnhYGEBqgpelahI48mHxVRkQSl7sVp8UySgEsRo0BlRiJq\ns57Dt2dD3P220yYNltUl7s1wSMByLxSCHNojY83zH3o6Ejs3Qo0PYFgUX8vBQk8q\nd1XnYQUbtn+HhwBEcSsX+wKBgA30JBiTejTGU7uAqyeg5llxssx+fdb+V3qLPgjE\nf6Vug79mZ1aYoOyfnOpzk4VwxLVqxdoVM0p9oKVR/LB93tmTSdBubd3hkyJWtlSq\n6rvjIGlOjKV8+3Gm/4a0ZI3HuKeaPR4k3gUvjNw9qZ8hDmI8Onhi2RK6b2qt6Pey\nc6yDAoGAdkbYVBUUgahaI1kYVChT07qlf1hdVSBgxzj1UERcWHEqjuA5IzzafRBi\nn7KhO65Z4FnTYrj0gMXmtX0pDGe2PwQjqZ2TTEXPsB5BXyhQa89Z/z5Y0o6e4Hfn\nY1iieF93Iz6e498juFx9PU1RVJ8M/jXNCCnPk3quydPM/Yma2go=\n-----END RSA PRIVATE KEY-----"
+    }
+}
