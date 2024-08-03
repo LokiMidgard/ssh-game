@@ -30,7 +30,41 @@ internal class PlayerConsole
         this.client = client;
         this.width = width;
         this.height = height;
-        RequestSwitchScreen(new ShellScreen());
+        var shell = new ShellScreen();
+        shell.EnetrFilesystem(new VirtualFileSystem()
+        {
+            InitalLocation = (VirtualFileSystem.IPath.AbsolutePath)VirtualFileSystem.IPath.Create("/user"),
+            Root = new()
+            {
+                Files ={
+                    {"user", new VirtualFileSystem.ShellFile.Folder(){
+                    Files={
+                        {"change-directory", new VirtualFileSystem.ShellFile.Extension(){
+                            Command=new ShellScreen.Command("change-directory", new(1,0), "Changes the current directory", [new ("dir", "The directory to change to", ShellScreen.ParameterType.File)], async (console, location, parameters)=>{
+                                if(parameters.Length==0){
+                                    console.Color(ConsoleInput.SafeColors.Red).Append("No target supplied");
+                                    return;
+                                }
+                                var changeToPath = VirtualFileSystem.IPath.Create(parameters[0].value);
+                                var changeTo = location.Filesystem.GetFile(location.Path, changeToPath);
+                                if(changeTo is null){
+                                    console.Color(ConsoleInput.SafeColors.Red).Append("Path not found");
+                                    return;
+                                }
+                                if(changeTo is not VirtualFileSystem.ShellFile.Folder folder){
+                                    console.Color(ConsoleInput.SafeColors.Red).Append("Path not a folder");
+                                    return;
+                                }
+
+                            })
+                        }}
+                    }}
+                }
+                }
+
+            }
+        });
+        RequestSwitchScreen(shell);
     }
 
     public async Task RequestSwitchScreen(Screen screen)
