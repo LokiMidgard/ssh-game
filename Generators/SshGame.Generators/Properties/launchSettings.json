@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SshGame.Generators": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\SshGame.Generators.Example\\SshGame.Generators.Example.csproj"
+    }
+  }
+}
